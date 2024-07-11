@@ -1,0 +1,53 @@
+:root {
+  --primary: #28cb8b;
+  --tint4:#C8E6C9;
+  ---D-grey: #4d4d4d;
+  --grey: #717171;
+  --silver: #f5f7fa;
+  --white: #ffffff;
+
+}
+/* global */
+h1,h2{
+    color: var(---D-grey);
+}
+p{
+    color: var(--grey);
+}
+
+/* start hero section */
+.hero-section {
+  height: 100vh;
+  background-color: var(--silver);
+}
+.heroTitle{
+    font-size:4rem;
+}
+.heroTitle span{
+    color: var(--primary);
+}
+
+.registerBtn{
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.dots{
+    width: 10px;
+    height: 10px;
+    background-color: var(--tint4);
+}
+.active-dot{
+    
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary);
+}
+.dots-container{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+}
+/* end hero section */
